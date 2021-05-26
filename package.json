@@ -1,5 +1,5 @@
 {
-  "name": "color-tool",
+  "name": "@zhuxian/color-tool",
   "version": "1.0.0",
   "description": "a func tools for colors",
   "main": "index.js",

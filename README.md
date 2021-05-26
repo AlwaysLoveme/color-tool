@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install color-tool
+npm install @zhuxian/color-tool
 ```
 eg:
 ```js
