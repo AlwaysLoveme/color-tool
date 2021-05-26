@@ -6,6 +6,7 @@ export function colorHexToRgb(hex) {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(h);
   return result ? result.slice(1).map((n) => parseInt(n, 16)) : null;
 }
+
 export function colorRgbToHex(r, g, b) {
   const result = [r, g, b]
     .map((n) => {
@@ -15,6 +16,7 @@ export function colorRgbToHex(r, g, b) {
     .join("");
   return `#${result}`;
 }
+
 export function colorRgbToHsl(r, g, b) {
   r /= 255; 
   g /= 255;
@@ -32,6 +34,7 @@ export function colorRgbToHsl(r, g, b) {
   if (h < 0) h = 360 / 60 + h;
   return [h * 60, s, l];
 }
+
 export function colorHslToRgb(h, s, l) {
   const c = (1 - Math.abs(2 * l - 1)) * s;
   const hp = h / 60;
@@ -48,6 +51,7 @@ export function colorHslToRgb(h, s, l) {
   const m = l - c / 2;
   return rgb1.map((n) => Math.max(0, Math.min(255, Math.round(255 * (n + m)))));
 }
+
 export function colorHsbToHsl(h, s, b) {
   const HSL = {
     h,
@@ -64,6 +68,7 @@ export function colorHsbToHsl(h, s, b) {
 
   return [HSL.h, HSL.s, HSL.l];
 }
+
 export function colorHslToHsb(h, s, l) {
   const HSB = {
     h,

@@ -1,6 +1,19 @@
 # color-tool
-一款hex颜色值、rgb颜色值、hsl颜色值互相转换的工具函数
+一款hex颜色值、rgb颜色值、hsl颜色值、hsb互相转换的工具函数
+## Install
 
+```bash
+npm install color-tool
+```
+eg:
+```js
+import {colorHexToRgb} from "color-tool";
+
+const hexRgb = colorHexToRgb("#FF80ED");
+console.log(hexRgb);
+
+···
+```
 ## colorHexToRgb
 <docgen-index>
 
