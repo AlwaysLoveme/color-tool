@@ -1,8 +1,9 @@
 {
   "name": "color-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "a func tools for colors",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/AlwaysLoveme/color-tool.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["colorTools"],
+  "author": "zhuxian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlwaysLoveme/color-tool/issues"
