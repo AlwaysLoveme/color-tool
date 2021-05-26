@@ -50,3 +50,6 @@
 </docgen-index>
 
 ### Interfaces
+
+### Thanks Framework7
+[framework7](https://framework7.io/)
